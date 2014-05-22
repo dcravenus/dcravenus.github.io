@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS "batches";
+CREATE TABLE "batches" ("id" INTEGER PRIMARY KEY  NOT NULL , "image_file" TEXT, "project_id" INTEGER);
+DROP TABLE IF EXISTS "batches_fields";
+CREATE TABLE "batches_fields" ("batch_id" INTEGER, "field_id" INTEGER);
+DROP TABLE IF EXISTS "fields";
+CREATE TABLE "fields" ("id" INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL , "title" TEXT, "x_coord" INTEGER, "width" INTEGER, "help_html" TEXT, "known_data" TEXT);
+DROP TABLE IF EXISTS "projects";
+CREATE TABLE "projects" ("id" INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL , "title" TEXT, "records_per_image" INTEGER, "first_y_coord" INTEGER, "record_height" INTEGER);
+DROP TABLE IF EXISTS "results";
+CREATE TABLE "results" ("id" INTEGER PRIMARY KEY  NOT NULL ,"data" TEXT DEFAULT (null) ,"batch_id" INTEGER);
+DROP TABLE IF EXISTS "users";
+CREATE TABLE "users" ("username" TEXT, "password" TEXT, "first_name" TEXT, "last_name" TEXT, "email" TEXT, "indexed_records" INTEGER DEFAULT 0, "id" INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL );
