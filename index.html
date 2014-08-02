@@ -1,21 +1,76 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Derrick Craven - Developer</title>
 
-<html>
-<head>
-    <title>Derrick Craven - Web Developer</title>
-    <link rel="stylesheet" href="styles.css"/>
-</head>
-<body>
-    <div id="wrapper">
-        <h1>Derrick Craven - Web Developer</h1>
-        
-        <div id="projects">
-            <h2>Projects I've Worked On</h2>
-            <a href="https://hummedia.byu.edu">Humanities Online Media</a></li>
-            <br>
-            <a href="http://ape.byu.edu">Automatic Pronunciation Evaluation (APE)</a></li>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      
+      <div class="container" id="wrapper">
+
+
+
+        <div class="page-header">
+          <h1>Derrick Craven <small>Software/Web Developer</small></h1>
+
+
+          </ul>
         </div>
 
-    </div>
-</body>
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Projects I've Worked On: <h2>
+            <p><a href="https://byu-odh.github.io/apeworm/">APE Worm</a></p>
+            <p><a href="https://hummedia.byu.edu">Humanities Online Media</p></a>
+            <p><a href="http://ape.byu.edu">Automatic Pronuciation Evaluation (APE)</p></a>
+          </div>
+          <div class="col-md-6">
+            <h2>Find Me On: <h2>
+            <p>
+              <a class="btn btn-primary big-button" href="https://github.com/dcravenus">Github <i class="fa fa-github"></i></a>
+              <!--<a class="btn btn-primary big-button">LinkedIn <i class="fa fa-linkedin"></i></a>-->
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-11">
+            <p id="info-tag">
+              Background -
+              <a href="https://accounts-flickr.yahoo.com/photos/99574551@N04/13976697616">Awakening of spring nature</a>
+              by
+              <a href="https://accounts-flickr.yahoo.com/photos/99574551@N04">Massmo Relsig</a> -
+              <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">(CC BY-NC-ND 2.0)</a>
+            </p>
+          </div>
+          <div class="col-md-1">
+            <a id="info-link" onclick="toggleInfo()"><i class="fa fa-info-circle"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="jquery.backstretch.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
