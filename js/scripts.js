@@ -1,4 +1,4 @@
-$.backstretch("field.jpg");
+$.backstretch("img/field.jpg");
 
 var toggleInfo = function(){
   $('#info-tag').toggle();

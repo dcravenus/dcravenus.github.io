@@ -2,13 +2,7 @@
   font-family: 'Rambla';
   font-style: normal;
   font-weight: 400;
-  src: local("Rambla"), local("Rambla-Regular"), url(fonts/rambla.woff) format("woff"); }
-
-@font-face {
-  font-family: 'Voltaire';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Voltaire"), url(fonts/voltaire.woff) format("woff"); }
+  src: local("Rambla"), local("Rambla-Regular"), url(../fonts/rambla.woff) format("woff"); }
 
 #wrapper{
 	margin-top: 30px;
