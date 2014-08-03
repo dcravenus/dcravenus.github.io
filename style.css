@@ -10,9 +10,6 @@
   font-weight: 400;
   src: local("Voltaire"), url(fonts/voltaire.woff) format("woff"); }
 
-.big-button{
-	font-size: 100%;
-}
 #wrapper{
 	margin-top: 30px;
 	background-color: white;
@@ -28,4 +25,22 @@
 
 #info-tag{
 	display: none;
+}
+
+[id$="description"] {
+	display: none;
+	font-size: 125%;
+}
+
+[id$="chevron"]{
+	cursor: pointer;
+}
+
+.project-title{
+	color: #428bca;
+}
+
+.project-title:hover{
+	cursor: pointer;
+	text-decoration: underline;
 }
