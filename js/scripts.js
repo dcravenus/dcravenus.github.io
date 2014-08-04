@@ -1,5 +1,3 @@
-$.backstretch("img/field.jpg");
-
 var toggleInfo = function(){
   $('#info-tag').toggle();
 };
@@ -18,3 +16,5 @@ var toggleApeDescription = function(){
   $('#ape-description').slideToggle();
   toggleChevron($('#ape-chevron'));	
 }
+
+$.backstretch("img/field.jpg");
