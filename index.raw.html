@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Derrick Craven - Developer</title><!-- Libraries -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <a href="#home">Home</a> <a href="#projects">Projects</a> <a href=
+    "http://github.com/dcravenus">GitHub</a><a href="http://www.linkedin.com/in/derrickcraven">LinkedIn</a>
+  </nav>
+  <div id="home">
+    <h1>Derrick Craven <small>- Web Developer/Software Engineer</small></h1>
+    <div class="flex-container">
+      <div class="card">
+        <img src="https://avatars0.githubusercontent.com/u/4764559?v=3&s=460" width=200 style="float: left;">
+      </div>
+      <div class="card" style="max-width:500px; font-size:150%;">
+        <p>
+        I like to build web-based applications that help brighten someone's day. I have built apps in JavaScript, PHP, and Python as well as writing much of my initial code in Java and C++.
+        </p>
+        <p>
+          Several of my projects are available on my <a href="#projects">projects</a> page and a lot of my code is on <a href="http://github.com/dcravenus">GitHub</a>.
+        </p>
+      </div>
+
+      </div>
+    </div>
+  </div>
+  <div id="projects">
+    <h1>BYU Projects</h1>
+    <div class="flex-container">
+      <div class="card">
+        <div class="img-description">
+          <h3 class="project-title">VowelWorm</h3>
+          <p id="apeworm-description">The <a href=
+          "https://byu-odh.github.io/apeworm/">VowelWorm</a> is a real-time pronunciation
+          evaluator that runs in the browser.</p>
+        </div><!--<img src="img/vowel_worm.png" width=300>-->
+      </div>
+      <div class="card">
+        <div class="img-description">
+          <h3 class="project-title" onclick="toggleHummediaDescription()">
+          Humanities Online Media</h3>
+          <p id="hummedia-description">The <a href=
+          "https://hummedia.byu.edu">Hummedia</a> project allows instructors to
+          host videos with custom annotations. Users can annotate videos with
+          interactive text, images and video, translate unknown words in
+          subtitles, and select scenes to skip among many other features.</p>
+        </div><!-- <img src="img/hummedia.png" width=300> -->
+      </div>
+      <div class="card">
+        <h3 class="project-title" onclick="toggleApeDescription()">Automatic
+        Pronunciation Evaluation (APE)</h3>
+        <p id="ape-description">The <a href="http://ape.byu.edu">Automatic
+        Pronunciation Evaluation (APE)</a> project allows foreign-language
+        learners to receive visual feedback to help improve their
+        pronunciation.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
