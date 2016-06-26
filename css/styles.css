@@ -4,41 +4,74 @@
   font-weight: 400;
   src: local("Rambla"), local("Rambla-Regular"), url(../fonts/rambla.woff) format("woff"); }
 
-body{
-  background-color: #8897B7;
+body {
+    font-family: 'Rambla', 'sans-serif';
+    background-image: url("../img/field.jpg");
 }
 
-#wrapper{
-	margin-top: 30px;
-	background-color: white;
-	font-family: 'Rambla',sans-serif;
-	border-radius: 10px;
+
+
+#home {
+    display: none;
 }
 
-#info-link{
-	float:right;
-	margin-bottom:5px;
-	cursor: pointer;
+#home:target {
+    display: block;
 }
 
-#info-tag{
-	display: none;
+#projects {
+    display: none;
 }
 
-[id$="description"] {
-	display: none;
-	font-size: 125%;
+#projects:target {
+    display: block;
 }
 
-[id$="chevron"]{
-	cursor: pointer;
+#contact {
+    display: none;
 }
 
-.project-title{
-	color: #428bca;
+#contact:target {
+    display: block;
 }
 
-.project-title:hover{
-	cursor: pointer;
-	text-decoration: underline;
+nav a:link    { color: black }  /* unvisited links */
+nav a:visited { color: black }  /* visited links   */
+nav a:hover   { color: gray }  /* user hovers     */
+nav a:active  { color: lightgray }  /* active links    */
+nav a{
+    text-decoration: none;
+    padding: 10px;
 }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    background-color: white;
+    margin: 15px;
+    box-shadow: 0 0 5px 0px black;
+    padding: 10px;
+    max-width: 300px;
+}
+
+.card-solo {
+    background-color: white;
+    margin: 15px;
+    box-shadow: 0 0 5px 0px black;
+    padding: 10px;
+}
+
+
+.project-title {
+    margin:0px;
+}
+
+.project-title a {
+    padding: 0px;
+}
+
