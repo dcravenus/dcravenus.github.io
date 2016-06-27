@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <title>Derrick Craven - Developer</title><!-- Libraries -->
+  <title>Derrick Craven - Developer</title>
   <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
@@ -31,7 +31,7 @@
     </div>
   </div>
   <div id="projects">
-    <h1>BYU Projects</h1>
+    <h1>Projects</h1>
     <div class="flex-container">
       <div class="card">
         <div class="img-description">
@@ -39,29 +39,37 @@
           <p id="apeworm-description">The <a href=
           "https://byu-odh.github.io/apeworm/">VowelWorm</a> is a real-time pronunciation
           evaluator that runs in the browser.</p>
-        </div><!--<img src="img/vowel_worm.png" width=300>-->
+        </div>
       </div>
       <div class="card">
         <div class="img-description">
-          <h3 class="project-title" onclick="toggleHummediaDescription()">
+          <h3 class="project-title">
           Humanities Online Media</h3>
           <p id="hummedia-description">The <a href=
           "https://hummedia.byu.edu">Hummedia</a> project allows instructors to
           host videos with custom annotations. Users can annotate videos with
           interactive text, images and video, translate unknown words in
           subtitles, and select scenes to skip among many other features.</p>
-        </div><!-- <img src="img/hummedia.png" width=300> -->
+        </div>
       </div>
       <div class="card">
-        <h3 class="project-title" onclick="toggleApeDescription()">Automatic
+        <h3 class="project-title">Automatic
         Pronunciation Evaluation (APE)</h3>
         <p id="ape-description">The <a href="http://ape.byu.edu">Automatic
         Pronunciation Evaluation (APE)</a> project allows foreign-language
         learners to receive visual feedback to help improve their
         pronunciation.</p>
       </div>
+      <div class="card">
+        <h3 class="project-title">TV Showtimes</h3>
+        <p>
+          I wanted an easier way to view when my favorite TV shows air new episodes so I built a simple <a href="http://dcravenus.github.io/tvshowinfo/">TV Showtimes</a> app.
+          The app uses the TVmaze API to load basic metadata about different TV shows. The app stores all its data on the client to reduce API calls and increase page load speed. As of this writing, TVmaze does not yet support HTTPS so adding new shows may require specifically allowing HTTP requests from a page loaded with HTTPS. In other words, click the warning in Chrome's address bar and then click "Load unsafe scripts."
+        </p>
+
+      </div>
     </div>
   </div>
-  <script>location.hash="home"</script>
+  <script>if(location.hash===""){location.hash="home"}</script>
 </body>
 </html>
