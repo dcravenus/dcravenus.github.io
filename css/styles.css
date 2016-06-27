@@ -7,6 +7,8 @@
 body {
     font-family: 'Rambla', 'sans-serif';
     background-image: url("../img/field.jpg");
+    background-repeat: no-repeat;
+    background-color: #fff704;
 }
 
 
@@ -24,14 +26,6 @@ body {
 }
 
 #projects:target {
-    display: block;
-}
-
-#contact {
-    display: none;
-}
-
-#contact:target {
     display: block;
 }
 
