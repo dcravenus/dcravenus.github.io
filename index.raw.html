@@ -8,68 +8,82 @@
   <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <a href="#home">Home</a> <a href="#projects">Projects</a> <a href=
+  <!--<nav>
+    <a href="#experience">Work Experience</a> <a href="#projects">Projects</a> <a href="#skills">Skills</a> <a href="#education">Education</a> <a href=
     "http://github.com/dcravenus">GitHub</a><a href="http://www.linkedin.com/in/derrickcraven">LinkedIn</a>
-  </nav>
-  <div id="home">
-    <h1>Derrick Craven <small>- Web Developer/Software Engineer</small></h1>
-    <div class="flex-container">
-      <div class="card">
-        <img src="img/portrait.jpg" style="float: left;">
-      </div>
-      <div class="card" style="max-width:500px; font-size:150%;">
-        <p>
-        I like to build web-based applications that help brighten someone's day. I have built apps in JavaScript, PHP, and Python as well as writing much of my initial code in Java and C++.
-        </p>
-        <p>
-          Several of my projects are available on my <a href="#projects">projects</a> page and a lot of my code is on <a href="http://github.com/dcravenus">GitHub</a>.
-        </p>
-      </div>
+  </nav>-->
 
+<div id="wrapper">
+  <h1 style="text-align:center;">Derrick Craven <small>- Web Developer/Software Engineer</small></h1>
+
+  <div id="experience">
+    <a target="experience"></a>
+    <div class="flex-container">
+
+      <div class="card-solo">
+          <h1>Work Experience</h1>
+
+        <h3>Brigham Young University</h3>
+        <ul>
+          <li>Built fully-interactive video annotation software for teachers and students using AngularJS</li>
+          <li>Launched a leaner Chrome App version currently used to screen international films at BYU</li>
+          <li>Led creation of new user interfaces and adjusted layouts in response to user feedback</li>
+          <li>Produced services to consume data from various APIs, using MVC architecture for data display</li>
+          <li>Improved a web-based app to give students accurate feedback on their German pronunciation</li>
+          <li>Utilized advances in HTML5 to improve user experience, including Web Audio API and Canvas</li>
+          <li>Unified a non-standard code base into a clean and scalable form using Yii PHP</li>
+          <li>Pioneered our team’s transition to CSS preprocessors, using LESS</li>
+          <li>Designed new architecture for quiz-based language-learning software</li>
+          <li>Engineered a new API in Python to simplify a complex legacy codebase</li>
+          <li>Introduced automated testing and linting, ensuring at least 90% code coverage of all code</li>
+        </ul>
+        <h3>InsideSales.com</h3>
+        <ul>
+          <li>Created a new edition of an in-house accounting and administrative software in PHP</li>
+          <li>Implemented a modern, responsive layout using SASS and AngularJS</li>
+          <li>Utilized domain-driven, object-oriented principles to simplify a bulky and complex code base</li>
+          <li>Achieved 100% test coverage of all new services</li>
+          <li>Created RESTful API endpoints, ensuring comprehensive online documentation</li>
+          <li>Adhered to Agile principles, working in two-week sprints and following the Scrum methodology</li>
+        </ul>
+
+
+          <h1>Skills</h1>
+            <h3>Web Technologies</h3>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>LESS/SASS</li>
+            </ul>
+
+            <h3>JavaScript</h3>
+            <ul>
+              <li>NodeJS</li>
+              <li>ES6</li>
+            </ul>
+
+            <h3>Backend Technology</h3>
+            <ul>
+              <li>C++</li>
+              <li>Java</li>
+            </ul>
+
+
+
+          <h1>Education</h1>
+
+        <h3>BA - English, Brigham Young University, August 2014</h3>
+        <h4>Courses Completed:</h4>
+        <ul>
+          <li>Advanced Programming Courses in Java and C++</li>
+          <li>Data Structures and Algorithms, Discrete Structures</li>
+          <li>Computer Systems</li>
+          <li>Web Databases (PHP/MySQL)</li>
+        </ul>
       </div>
     </div>
   </div>
-  <div id="projects">
-    <h1>Projects</h1>
-    <div class="flex-container">
-      <div class="card">
-        <div class="img-description">
-          <h3 class="project-title">VowelWorm</h3>
-          <p id="apeworm-description">The <a href=
-          "https://byu-odh.github.io/apeworm/">VowelWorm</a> is a real-time pronunciation
-          evaluator that runs in the browser.</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="img-description">
-          <h3 class="project-title">
-          Humanities Online Media</h3>
-          <p id="hummedia-description">The <a href=
-          "https://hummedia.byu.edu">Hummedia</a> project allows instructors to
-          host videos with custom annotations. Users can annotate videos with
-          interactive text, images and video, translate unknown words in
-          subtitles, and select scenes to skip among many other features.</p>
-        </div>
-      </div>
-      <div class="card">
-        <h3 class="project-title">Automatic
-        Pronunciation Evaluation (APE)</h3>
-        <p id="ape-description">The <a href="http://ape.byu.edu">Automatic
-        Pronunciation Evaluation (APE)</a> project allows foreign-language
-        learners to receive visual feedback to help improve their
-        pronunciation.</p>
-      </div>
-      <div class="card">
-        <h3 class="project-title">TV Showtimes</h3>
-        <p>
-          I wanted an easier way to view when my favorite TV shows air new episodes so I built a simple <a href="http://dcravenus.github.io/tvshowinfo/">TV Showtimes</a> app.
-          The app uses the TVmaze API to load basic metadata about different TV shows. The app stores all its data on the client to reduce API calls and increase page load speed. As of this writing, TVmaze does not yet support HTTPS so adding new shows may require specifically allowing HTTP requests from a page loaded with HTTPS. In other words, click the warning in Chrome's address bar and then click "Load unsafe scripts."
-        </p>
 
-      </div>
-    </div>
   </div>
-  <script>if(location.hash===""){location.hash="home"}</script>
+
 </body>
 </html>

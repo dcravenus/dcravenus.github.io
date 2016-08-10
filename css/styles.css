@@ -6,28 +6,15 @@
 
 body {
     font-family: 'Rambla', 'sans-serif';
-    background-image: url("../img/field.jpg");
-    background-repeat: no-repeat;
-    background-color: #fff704;
+    background-image: url('../img/seamless_paper_texture.png');
+    line-height: 1.5;
+    color: #555;
 }
 
-
-
-#home {
-    display: none;
+h1,h2,h3 {
+    color: black;
 }
 
-#home:target {
-    display: block;
-}
-
-#projects {
-    display: none;
-}
-
-#projects:target {
-    display: block;
-}
 
 nav a:link    { color: black }  /* unvisited links */
 nav a:visited { color: black }  /* visited links   */
@@ -60,6 +47,9 @@ nav a{
     padding: 10px;
 }
 
+.flex-div {
+    padding: 10px;
+}
 
 .project-title {
     margin:0px;
@@ -69,3 +59,32 @@ nav a{
     padding: 0px;
 }
 
+
+@media all and (min-width: 540px) {
+  #wrapper{
+
+  }
+  .card-solo{
+    min-width: 500px;
+  }
+}
+
+@media all and (min-width: 700px) {
+  #wrapper{
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+  .card-solo{
+    min-width: 650px;
+  }
+}
+
+@media all and (min-width: 800px) {
+  #wrapper{
+    margin-left: 20em;
+    margin-right: 20em;
+  }
+  .card-solo{
+    min-width: 750px;
+  }
+}
