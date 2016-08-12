@@ -9,6 +9,8 @@ body {
     background-image: url("../img/field.jpg");
     background-repeat: no-repeat;
     background-color: #fff704;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
