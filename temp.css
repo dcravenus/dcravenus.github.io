@@ -51,3 +51,8 @@ h1{
 #header h2 {
   margin-top: .5em;
 }
+
+img {
+    max-width: 50em;
+
+}
