@@ -1,73 +1,58 @@
-@font-face {
-  font-family: 'Rambla';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Rambla"), local("Rambla-Regular"), url(../fonts/rambla.woff) format("woff"); }
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
-body {
-    font-family: 'Rambla', 'sans-serif';
-    background-image: url("../img/field.jpg");
-    background-repeat: no-repeat;
-    background-color: #fff704;
-    background-attachment: fixed;
-    background-size: cover;
+body{
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
-
-
-#home {
-    display: none;
+#header{
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  background-color: #58a558;
+  color: #292929;
 }
 
-#home:target {
-    display: block;
+#content{
+  margin: 0 auto;
+  max-width: 50em;
+
+  line-height: 1.5;
+
+  color: #555;
+
+
 }
 
-#projects {
-    display: none;
+#content a {
+  color: green;
+  text-decoration: none;
 }
 
-#projects:target {
-    display: block;
+#links {
+  font-size: 150%;
+  text-align: center;
 }
 
-nav a:link    { color: black }  /* unvisited links */
-nav a:visited { color: black }  /* visited links   */
-nav a:hover   { color: gray }  /* user hovers     */
-nav a:active  { color: lightgray }  /* active links    */
-nav a{
-    text-decoration: none;
-    padding: 10px;
+#links a {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+h1{
+  margin:0;
 }
 
-.card {
-    background-color: white;
-    margin: 15px;
-    box-shadow: 0 0 5px 0px black;
-    padding: 10px;
-    max-width: 300px;
+#content h2 {
+  margin-top: 1.5em;
 }
 
-.card-solo {
-    background-color: white;
-    margin: 15px;
-    box-shadow: 0 0 5px 0px black;
-    padding: 10px;
+#header h2 {
+  margin-top: .5em;
 }
 
+img {
+    max-width: 50em;
 
-.project-title {
-    margin:0px;
 }
-
-.project-title a {
-    padding: 0px;
-}
-
