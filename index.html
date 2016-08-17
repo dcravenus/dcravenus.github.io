@@ -1,1 +1,51 @@
-<!DOCTYPE html><html lang="en"><head> <meta charset="utf-8"> <meta content="IE=edge" http-equiv="X-UA-Compatible"> <meta content="width=device-width, initial-scale=1" name="viewport"> <title>Derrick Craven - Developer</title> <link href="css/styles.css" rel="stylesheet"></head><body> <nav> <a href="#home">Home</a> <a href="#projects">Projects</a> <a href="http://github.com/dcravenus">GitHub</a><a href="http://www.linkedin.com/in/derrickcraven">LinkedIn</a> </nav> <div id="home"> <h1>Derrick Craven <small>- Web Developer/Software Engineer</small></h1> <div class="flex-container"> <div class="card"> <img src="img/portrait.jpg" style="float: left;"> </div><div class="card" style="max-width:500px; font-size:150%;"> <p> I like to build web-based applications that help brighten someone's day. I have built apps in JavaScript, PHP, and Python as well as writing much of my initial code in Java and C++. </p><p> Several of my projects are available on my <a href="#projects">projects</a> page and a lot of my code is on <a href="http://github.com/dcravenus">GitHub</a>. </p></div></div></div></div><div id="projects"> <h1>Projects</h1> <div class="flex-container"> <div class="card"> <div class="img-description"> <h3 class="project-title">VowelWorm</h3> <p id="apeworm-description">The <a href="https://byu-odh.github.io/apeworm/">VowelWorm</a> is a real-time pronunciation evaluator that runs in the browser.</p></div></div><div class="card"> <div class="img-description"> <h3 class="project-title"> Humanities Online Media</h3> <p id="hummedia-description">The <a href="https://hummedia.byu.edu">Hummedia</a> project allows instructors to host videos with custom annotations. Users can annotate videos with interactive text, images and video, translate unknown words in subtitles, and select scenes to skip among many other features.</p></div></div><div class="card"> <h3 class="project-title">Automatic Pronunciation Evaluation (APE)</h3> <p id="ape-description">The <a href="http://ape.byu.edu">Automatic Pronunciation Evaluation (APE)</a> project allows foreign-language learners to receive visual feedback to help improve their pronunciation.</p></div><div class="card"> <h3 class="project-title">TV Showtimes</h3> <p> I wanted an easier way to view when my favorite TV shows air new episodes so I built a simple <a href="http://dcravenus.github.io/tvshowinfo/">TV Showtimes</a> app. The app uses the TVmaze API to load basic metadata about different TV shows. The app stores all its data on the client to reduce API calls and increase page load speed. As of this writing, TVmaze does not yet support HTTPS so adding new shows may require specifically allowing HTTP requests from a page loaded with HTTPS. In other words, click the warning in Chrome's address bar and then click "Load unsafe scripts." </p></div></div></div><script>if(location.hash===""){location.hash="home"}</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="https://necolas.github.io/normalize.css/4.1.1/normalize.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Derrick Craven - Full-Stack Developer</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Derrick Craven</h1>
+        <h2>Full-Stack Developer</h2>
+    </div>
+    <div id="content">
+        <h2>About Me</h2>
+        <p>I like to build web-based applications that help brighten someone's day. I have built apps in JavaScript, PHP, and Python as well as writing much of my initial code in Java and C++.</p>
+
+
+        <h2>Projects I've Worked On</h2>
+
+        <h3>Hummedia</h3>
+        <p>The <a href="https://hummedia.byu.edu">Hummedia</a> project allows instructors to host videos with custom annotations. Users can annotate videos with interactive text, images and video,
+        translate unknown words in subtitles, and select scenes to skip among many other features.</p>
+
+        <img src="img/hummedia.png">
+
+        <h3>Automatic Pronunciation Evaluation (APE)</h3>
+        <p>The <a href="http://ape.byu.edu">Automatic Pronunciation Evaluation (APE)</a> project allows foreign-language learners to receive visual feedback to help improve their pronunciation. The <a href="https://byu-odh.github.io/apeworm/">VowelWorm</a> is a real-time pronunciation evaluator that runs in the browser.</p>
+
+        <img src="img/vowelworm.png">
+
+        <h3>TV Showtimes</h3>
+        <p>I wanted an easier way to view when my favorite TV shows air new episodes so I built a simple <a href="http://dcravenus.github.io/tvshowinfo/">TV Showtimes</a> app. The app uses the TVmaze
+        API to load basic metadata about different TV shows. The app stores all its data on the client to reduce API calls and increase page load speed. As of this writing, TVmaze does not yet
+        support HTTPS so adding new shows may require specifically allowing HTTP requests from a page loaded with HTTPS. In other words, click the warning in Chrome's address bar and then click "Load
+        unsafe scripts."</p>
+
+        <img src="img/tvshowtimes.png">
+
+
+        <h2>Work Experience</h2>
+        <p>I have built web applications for several companies including <a href="https://familysearch.org/">FamilySearch</a>, <a href="http://www.insidesales.com/">InsideSales.com</a> and <a href=
+        "http://home.byu.edu/home/">Brigham Young University</a>.</p>
+
+        <div id="links">
+            <a href="http://www.linkedin.com/in/derrickcraven"><i class="fa fa-linkedin-square"></i></a> <a href="http://github.com/dcravenus"><i class="fa fa-github-square"></i></a>
+        </div>
+    </div>
+</body>
+</html>
