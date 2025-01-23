@@ -1,33 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1>Art</h1>
+      <a href="pixel-color">pixel color</a>
+      <a href="destijl">destijl</a>
+
+      <h1>Movies/TV</h1>
+      <a href="tuesday">tuesday</a>
+      <a href="http://www.derrickcraven.com/tvshowinfo">TV Showtimes App</a>
+
+      <h1>Other Stuff</h1>
+      <a href="http://www.derrickcraven.com/recipes/">Recipes</a>
+      <a href="http://www.derrickcraven.com/blog">Blog</a>
+      <a href="http://www.derrickcraven.com/portfolio">Portfolio</a>
+      <a href="http://www.derrickcraven.com/ambient-youtube/">Ambient YouTube</a>
+      <a href="http://www.derrickcraven.com/skills-program/">Skills Program</a>
     </>
   )
 }
